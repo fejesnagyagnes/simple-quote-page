@@ -4,6 +4,8 @@ body {
   background: url('assets/freedom.jpg') no-repeat center;
   background-size: cover;
   height: 100vh;
+  line-height: 1.5;
+  color: #333;
 }
 
 /* TEXT STYLES */
@@ -11,7 +13,6 @@ body {
 h1 {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 2.5rem;
-  line-height: 1.6em;
 }
 
 h2 {
@@ -20,3 +21,15 @@ h2 {
   font-style: italic;
 }
 
+/* WRAPPER STYLES */
+
+.wrapper {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto; 
+  padding-top: 4rem;
+}
+
+h1, h2 {
+  margin-top: 2rem;
+}
